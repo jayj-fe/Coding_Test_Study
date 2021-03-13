@@ -11,7 +11,7 @@
 개인의 브런치에 업로드 하고 main 브런치에 pull을 요청하는 형식입니다.<br>
 다른 사람의 풀이에 궁금증이 있을 경우 커멘드를 남기거나 Slack을 통해서 소통합니다.<br>
 
-> Slack Link : 현재미개설
+> Slack Link : [https://join.slack.com/t/ctstudy/shared_invite/zt-nogft7yr-_EgO~9OUWg7g0yA_bbUGNg](https://join.slack.com/t/ctstudy/shared_invite/zt-nogft7yr-_EgO~9OUWg7g0yA_bbUGNg)
 
 <br>
 업로드시 파일명 규칙 : <br>
