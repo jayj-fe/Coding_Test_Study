@@ -16,8 +16,8 @@
 <br>
 업로드시 파일명 규칙 : <br>
 
-- filename[nickname]
-- ex : Hash_01[jayj]
+- filename[nickname]_language
+- ex : Hash_01[jayj]_javascript
 
 <br>
 <br>
