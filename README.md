@@ -10,8 +10,10 @@
 출제 빈도가 높고 Leval 이 낮은 순부터 진행합니다.<br>
 - Hash_01 : 해시 - Level 1 (완주하지 못한 선수)
 - Sort_01 : 정렬 - Level 1 (K번째 수)
-- ExhaustiveSearch_01 : 완전탐색 - Level 1 (모의고사))
+- ExhaustiveSearch_01 : 완전탐색 - Level 1 (모의고사)
+
 <br>
+
 - Hash_02 : 해시 - Level 2 (전화번호 목록)
 - Hash_03 : 해시 - Level 2 (위장)
 - Sort_02 : 정렬 - Level 2 (가장 큰 수)
@@ -24,7 +26,9 @@
 - Stack_Queue_03 스택/큐 - Level 2 (기능개발)
 - Stack_Queue_04 스택/큐 - Level 2 (프린터)
 - Heap_01 : 힙 - Level 2 (더 맵게)
+
 <br>
+
 - Hash_04 : 해시 - Level 3 (베스트앨범)
 - DFS_BFS_01 : 깊이/너비 우선탐색 - Level 3 (네트워크)
 - DFS_BFS_02 : 깊이/너비 우선탐색 - Level 3 (단어 변환)
