@@ -15,6 +15,7 @@
 
 <br>
 업로드시 파일명 규칙 : <br>
+
 - filename[nickname].md
 - ex : Hash_01[jayj].md
 
