@@ -14,15 +14,20 @@
 > Slack Link : 현재미개설
 
 <br>
-파일명 : <br>
-    filename[nickname].md<br>
-    ex : Hash_01[jayj].md
+업로드시 파일명 규칙 : <br>
+- filename[nickname].md
+- ex : Hash_01[jayj].md
 
+<br>
 <br>
 
 ### 문제 순서
 
 출제 빈도가 높고 Leval 이 낮은 순부터 진행합니다.<br>
+> 출제 빈도가 낮은 문제는 제외하였습니다.
+
+#### Lavel 1
+
 - #### 해시 - Level 1 (완주하지 못한 선수)
     - 파일명 : Hash_01
     - 문제 링크 : [완주하지 못한 선수](https://programmers.co.kr/learn/courses/30/lessons/42576?language=javascript)
@@ -33,7 +38,7 @@
     - 파일명 : ExhaustiveSearch_01
     - 문제 링크 : []()
 
-<br>
+#### Lavel 2
 
 - #### 해시 - Level 2 (전화번호 목록)
     - 파일명 : Hash_02
@@ -72,7 +77,7 @@
     - 파일명 : Heap_01
     - 문제 링크 : []()
 
-<br>
+#### Lavel 3
 
 - #### 해시 - Level 3 (베스트앨범)
     - 파일명 : Hash_04
@@ -92,5 +97,3 @@
 - #### 힙 - Level 3 (이중우선순위큐)
     - 파일명 : Heap_03
     - 문제 링크 : []()
-
-> 출제 빈도가 낮은 문제는 제외하였습니다.
