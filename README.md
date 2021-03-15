@@ -8,7 +8,7 @@
 ### 공부 방법
 
 사이트에서 원하는 언어를 선택하여 문제를 풀며,<br>
-문제풀이가 완료되면 아래 규칙을 준수하여 Pull requests 해주시면 됩니다.
+문제풀이가 완료되면 아래 규칙을 준수하여 Pull requests 해주시면 됩니다.<br>
 다른 사람의 풀이에 궁금증이 있을 경우 커멘드를 남기거나 Slack을 통해서 소통합니다.<br>
 
 > Slack Link : [https://join.slack.com/t/ctstudy/shared_invite/zt-nogft7yr-_EgO~9OUWg7g0yA_bbUGNg](https://join.slack.com/t/ctstudy/shared_invite/zt-nogft7yr-_EgO~9OUWg7g0yA_bbUGNg)
