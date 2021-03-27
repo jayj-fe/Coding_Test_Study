@@ -51,18 +51,18 @@
 
             participant.forEach(entry => {
                 // 참가자의 이름은 1개 이상 20개 이하의 알파벳 소문자로 이루어져 있습니다.
-                const lowercase = /^[a-z]+$/.test(entry),
-                    eSize = entry.length;
+                // const lowercase = /^[a-z]+$/.test(entry),
+                //     eSize = entry.length;
 
-                    if(!lowercase){
-                        alert('참가자의 이름은 소문자로 이루어져 있습니다.');
-                        return false;
-                    }
+                //     if(!lowercase){
+                //         alert('참가자의 이름은 소문자로 이루어져 있습니다.');
+                //         return false;
+                //     }
 
-                    if( eSize < 1 ||  eSize > 20 ){
-                        alert('참가자의 이름은 1개 이상 20개 이하의 입니다.');
-                        return false;
-                    }
+                //     if( eSize < 1 ||  eSize > 20 ){
+                //         alert('참가자의 이름은 1개 이상 20개 이하의 입니다.');
+                //         return false;
+                //     }
 
                 hashed[entry] = hashed[entry] ? hashed[entry] + 1 : 1 ;
             })
