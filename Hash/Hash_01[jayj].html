@@ -49,29 +49,29 @@
             //     return false;
             // }
 
-            participant.forEach(entry => {
+            for(const key of participant){
                 // 참가자의 이름은 1개 이상 20개 이하의 알파벳 소문자로 이루어져 있습니다.
-                // const lowercase = /^[a-z]+$/.test(entry),
-                //     eSize = entry.length;
+                // const lowercase = /^[a-z]+$/.test(key),
+                //     eSize = key.length;
 
-                //     if(!lowercase){
-                //         alert('참가자의 이름은 소문자로 이루어져 있습니다.');
-                //         return false;
-                //     }
+                // if(!lowercase){
+                //     alert('참가자의 이름은 소문자로 이루어져 있습니다.');
+                //     return false;
+                // }
 
-                //     if( eSize < 1 ||  eSize > 20 ){
-                //         alert('참가자의 이름은 1개 이상 20개 이하의 입니다.');
-                //         return false;
-                //     }
+                // if( eSize < 1 ||  eSize > 20 ){
+                //     alert('참가자의 이름은 1개 이상 20개 이하의 입니다.');
+                //     return false;
+                // }
 
-                hashed[entry] = hashed[entry] ? hashed[entry] + 1 : 1 ;
-            })
+                hashed[key] = hashed[key] ? hashed[key] + 1 : 1 ;
+            }
 
-            completion.forEach(entry => {
-                hashed[entry] = hashed[entry] - 1;
-            })
+            for(const key of completion){
+                hashed[key] = hashed[key] - 1;
+            }
 
-            for (var key in hashed) {
+            for (const key in hashed) {
                 if (hashed[key] >= 1){
                     return key;
                 }
