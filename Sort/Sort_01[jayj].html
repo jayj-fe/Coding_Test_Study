@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>K번째수</title>
+<style>
+</style>
+</head>
+<body>
+    <script>
+        "use strict";
+
+        /*
+         1. array의 길이는 1 이상 100 이하입니다.
+         2. array의 각 원소는 1 이상 100 이하입니다.
+         3. commands의 길이는 1 이상 50 이하입니다.
+         4. commands의 각 원소는 길이가 3입니다.
+        */
+
+        const test_array = [1, 5, 2, 6, 3, 7, 4];
+        const test_commands = [[2, 5, 3], [4, 4, 1], [1, 7, 3]];
+        // [5, 6, 3]
+
+        function solution(array, commands) {
+            const answer = [];
+
+            const arraySize = array.length;
+            const commandsSize = array.length;
+
+            if( arraySize < 1 || arraySize > 100){
+                alert('array의 길이는 1 이상 100 이하입니다.');
+                return false;
+            }
+            
+            if( commandsSize < 1 || commandsSize > 50 ){
+                alert('commands의 길이는 1 이상 50 이하입니다.');
+                return false;
+            }
+
+            for(const e of array){
+                if( e < 1 || e > 100){
+                    alert('array의 각 원소는 1 이상 100 이하입니다.');
+                    return false;
+                }
+            }
+
+            for(const key of commands){
+                if(key.length != 3){
+                    alert('commands의 각 원소는 길이가 3입니다.');
+                    return false;
+                }
+
+                // -1일 경우의 방어코드는 필요한가?
+                // let [ firstKey, sliceKey, targetKey ] = key;
+
+                // firstKey = firstKey-1 > 0 ? firstKey-1 : 0;
+                // targetKey = targetKey-1 > 0 ? targetKey-1 : 0;
+
+                const [ firstKey, sliceKey, targetKey ] = key;
+                const result = array.slice(firstKey-1, sliceKey).sort((a, b) => a - b );
+                answer.push(result[targetKey-1]);
+            }
+
+            return answer;
+        }
+
+        console.log("예제 1");
+        console.log(solution(test_array, test_commands));
+    </script>
+</body>
+</html>
