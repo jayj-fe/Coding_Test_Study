@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>H-Index</title>
+<style>
+</style>
+</head>
+<body>
+    <script>
+        "use strict";
+
+        /*
+         1. 과학자가 발표한 논문의 수는 1편 이상 1,000편 이하입니다.
+         2. 논문별 인용 횟수는 0회 이상 10,000회 이하입니다.
+        */
+        // H-지수(H-Index) 란 무엇인가?
+        // https://www.ibric.org/myboard/read.php?Board=news&id=270333
+        // https://en.wikipedia.org/wiki/H-index
+
+        const test_answers = [3, 0, 6, 1, 5];
+        const test_answers2 = [6, 6, 6, 6, 6, 1];
+        const test_answers3 = [4, 4, 4];
+        const test_answers4 = [4, 4, 4, 5, 0, 1, 2, 3];
+        const test_answers5 = [0, 0, 1, 1];
+        const test_answers6 = [0, 0, 0];
+        // 3 / 5 / 3 / 4 / 1
+
+        function solution(citations) {
+            let answer = 0;
+
+            citations.sort((a,b) => b - a);
+            for(const key in citations){
+                const NumKey = Number(key)+1;
+                if( Number(key)+1 > citations[key] ){
+                    answer = Number(key);
+                    break;
+                }
+            }
+            answer = answer === 0 ? citations[0] === 0 ? 0 : citations.length : answer;
+
+            return answer;
+
+            /* 다른 사람 풀이 */
+            // for(let i = 0; i < citations.length; i++) {
+            //     if(citations[i] > i) answer++;
+            //     else break;
+            // }
+
+            // return answer;
+        }
+
+        console.log("예제 1");
+        console.log(solution(test_answers));
+
+        console.log("예제 2");
+        console.log(solution(test_answers2));
+
+        console.log("예제 3");
+        console.log(solution(test_answers3));
+        
+        console.log("예제 4");
+        console.log(solution(test_answers4));
+        
+        console.log("예제 5");
+        console.log(solution(test_answers5));
+
+        console.log("예제 6");
+        console.log(solution(test_answers6));
+    </script>
+</body>
+</html>
