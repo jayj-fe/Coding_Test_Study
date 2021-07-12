@@ -3,16 +3,12 @@
 [프로그래머스 사이트](https://programmers.co.kr/learn/challenges)의 코딩테스트 문제를 풀면서 <br>
 코딩 테스트를 준비하고, 알고리즘/자료구조를 공부하기 위한 리포지토리 입니다.
 
-<br>
-
 <!-- ### 공부 방법
 
 사이트에서 원하는 언어를 선택하여 문제를 풀며,<br>
 다른 사람의 풀이에 궁금증이 있을 경우 커멘드를 남기거나 Slack을 통해서 소통합니다.<br>
 
 > Slack Link : [https://join.slack.com/t/ctstudy/shared_invite/zt-nogft7yr-_EgO~9OUWg7g0yA_bbUGNg](https://join.slack.com/t/ctstudy/shared_invite/zt-nogft7yr-_EgO~9OUWg7g0yA_bbUGNg) -->
-
-<br>
 
 <!-- ### 공부 인증 및 소스 공유 방법 -->
 
