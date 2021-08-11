@@ -104,11 +104,11 @@ folder Name - File Name[nickname]_language
 ### 위클리 챌린지(2021)
 
 - #### 위클리 챌린지 1주차
-    - 파일명 : weekly_2021_01
+    - 파일명 : weekly_01
     - 문제 링크 : [위클리 챌린지 1주차](https://programmers.co.kr/learn/courses/30/lessons/82612)
 
 - #### 위클리 챌린지 2주차
-    - 파일명 : weekly_2021_02
+    - 파일명 : weekly_02
     - 문제 링크 : [위클리 챌린지 2주차](https://programmers.co.kr/learn/courses/30/lessons/83201)
 
 
