@@ -98,3 +98,17 @@ folder Name - File Name[nickname]_language
 - #### 힙 - Level 3 (이중우선순위큐)
     - 파일명 : Heap_03
     - 문제 링크 : [이중우선순위큐](https://programmers.co.kr/learn/courses/30/lessons/42628)
+
+### 위클리 챌린지(2021)
+
+- #### 위클리 챌린지 1주차
+    - 파일명 : weekly_2021_01
+    - 문제 링크 : [위클리 챌린지 1주차](https://programmers.co.kr/learn/courses/30/lessons/82612)
+
+- #### 위클리 챌린지 2주차
+    - 파일명 : weekly_2021_02
+    - 문제 링크 : [위클리 챌린지 2주차](https://programmers.co.kr/learn/courses/30/lessons/83201)
+
+
+출제 빈도가 높고 Leval 이 낮은 순부터 나열하였습니다.<br>
+> 출제 빈도가 낮은 문제는 제외하였습니다.<br>
