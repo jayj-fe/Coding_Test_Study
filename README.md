@@ -99,6 +99,11 @@ folder Name - File Name[nickname]_language
     - 파일명 : Heap_03
     - 문제 링크 : [이중우선순위큐](https://programmers.co.kr/learn/courses/30/lessons/42628)
 
+<Br>
+
+출제 빈도가 높고 Leval 이 낮은 순부터 나열하였습니다.<br>
+> 출제 빈도가 낮은 문제는 제외하였습니다.<br>
+
 <br>
 
 ### 위클리 챌린지(2021)
@@ -111,6 +116,6 @@ folder Name - File Name[nickname]_language
     - 파일명 : weekly_02
     - 문제 링크 : [위클리 챌린지 2주차](https://programmers.co.kr/learn/courses/30/lessons/83201)
 
-
-출제 빈도가 높고 Leval 이 낮은 순부터 나열하였습니다.<br>
-> 출제 빈도가 낮은 문제는 제외하였습니다.<br>
+- #### 위클리 챌린지 3주차
+    - 파일명 : weekly_03
+    - 문제 링크 : [위클리 챌린지 3주차](https://programmers.co.kr/learn/courses/30/lessons/84021)
